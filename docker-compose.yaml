@@ -10,8 +10,8 @@ services:
     ports:
       - "80:80"
     volumes:
-      - /home/ubuntu/nginx/nginx_html:/usr/share/nginx/html
-      - /home/ubuntu/nginx/config:/etc/nginx/conf.d
+      - ./nginx_html:/usr/share/nginx/html
+      - ./config:/etc/nginx/conf.d
 
 networks:
   nginx_network:
