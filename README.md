@@ -20,7 +20,7 @@ nginx/
 ├── config/
 │   └── default.conf          # nginx 配置文件
 ├── nginx_html/
-│   └── index.html            # 網站內容
+│   └── index.html            # nginx portal 頁面
 ├── docker-compose.yaml       # Docker Compose 配置
 └── README.md
 ```
